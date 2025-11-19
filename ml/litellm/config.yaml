@@ -1,0 +1,6 @@
+model_list:
+  - model_name: t-tech/T-pro-it-1.0
+    litellm_params:
+      model: openai/t-tech/T-pro-it-1.0
+      api_base: os.environ/FM_API_BASE
+      api_key: os.environ/FM_API_KEY
