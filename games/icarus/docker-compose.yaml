@@ -1,0 +1,16 @@
+services:
+
+  icarus:
+    container_name: icarus-dedicated
+    image: nerodon/icarus-dedicated:latest
+    hostname: icarus-dedicated 
+    restart: always
+    ports:
+      - 17777:17777/udp
+      - 27015:27015/udp
+    volumes:
+      - ./data:/home/steam/.wine/drive_c/icarus
+      - ./game:/game/icarus
+    env_file:
+      - .env 
+
