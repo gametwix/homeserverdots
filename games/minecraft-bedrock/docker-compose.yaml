@@ -7,7 +7,7 @@ services:
       SERVER_NAME: "Local minecraft server"
       ALLOW_CHEATS: "false"
       ONLINE_MODE: "false"
-      VERSION: "1.21.120.4"
+      VERSION: "1.21.132.1"
     ports:
       - "19132:19132/udp"
     volumes:
