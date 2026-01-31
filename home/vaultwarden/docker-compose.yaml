@@ -6,4 +6,4 @@ services:
     volumes:
       - ./vw-data/:/data/
     ports:
-      - 8000:80
+      - 8290:80
