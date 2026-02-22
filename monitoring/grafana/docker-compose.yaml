@@ -5,6 +5,8 @@ services:
     restart: unless-stopped
     volumes:
       - ./grafana-data/:/var/lib/grafana/
+    env_file:
+      - .env
     ports:
       - 3000:3000
     environment:
