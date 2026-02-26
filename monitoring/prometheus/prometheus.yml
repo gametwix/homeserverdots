@@ -11,3 +11,4 @@ scrape_configs:
     static_configs:
       - targets:
           - 2.59.183.163:9100
+          - 79.132.138.163:9100
