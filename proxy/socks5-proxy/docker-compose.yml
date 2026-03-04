@@ -17,7 +17,7 @@ services:
       DIAL_TIMEOUT_SECONDS: "10"
     ports:
       - "54321:1080"
-      - "8080:8080"
+      - "8054:8080"
 
   redis:
     image: redis:8-alpine
